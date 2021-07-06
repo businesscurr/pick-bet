@@ -377,6 +377,100 @@
     color: var(--primario);
 }
 
+.container-paso-impar {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px ;
+}
+
+.container-paso-impar .descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-paso-impar .descripcion .numero {
+    width: 70px;
+    height: 70px;
+    border: 5px solid var(--primario);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-paso-impar .descripcion .numero p {
+    margin: 0;
+    font-size: 65px;
+    font-weight: 500;
+    color: var(--primario);
+}
+
+.container-paso-impar .descripcion .descripcion-p {
+    text-align: center;
+}
+
+.container-paso-impar .descripcion .descripcion-p p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: var(--primario);
+}
+
+.container-paso-impar .btn-whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-paso-impar .btn-whatsapp .btn-wha {
+    width: 200px;
+    height: 44px;
+    background: var(--secundario);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+}
+
+.container-paso-impar .btn-whatsapp .btn-wha:hover {
+    background: none;
+    border: 2px solid #19ef14;
+    color: var(--primario);
+}
+
+.par {
+    background: var(--primario);
+}
+
+.par .descripcion .numero {
+    border-color: #FFF;
+}
+
+.par .descripcion .numero p,
+.par .descripcion .descripcion-p p {
+    color: #FFF;
+} 
+
+.navbar {
+    background: var(--primario)!important;
+}
+
+.navbar img{
+    max-width: 180px;
+}
+
+.navbar ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #FFF!important;
+}
+
 
 
 @media (max-width: 767.9px) {
@@ -421,6 +515,19 @@
     .footer .contenedor-img-footer {
         margin: 0 auto;
         margin-bottom: 20px;
+    }
+
+    .container-paso-impar .btn-whatsapp .btn-wha {
+        margin-top: 30px;
+    }
+
+    .par .img-pagos {
+        margin-top: 40px;
+        max-width: 300px;
+    }
+
+    .par .img-pagos img {
+        width: 100%;
     }
 }
 
