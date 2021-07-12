@@ -471,7 +471,12 @@
     color: #FFF!important;
 }
 
-
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
 
 @media (max-width: 767.9px) {
     .overlay h1 {
